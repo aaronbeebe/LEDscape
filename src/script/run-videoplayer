@@ -23,6 +23,6 @@ shopt -s extglob
 # Play the first video we find, on a loop.
 for video in "$USBMOUNT/"*+(.mp4|.MP4|.avi|.AVI)
 do
-    exec ./videoplayer --screenGeometry 32x32 -w 32 -l "$video"
+    exec ./videoplayer --screenGeometry 32x32  -w 32 -l "$video"
     break
 done
