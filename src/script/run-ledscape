@@ -20,4 +20,4 @@ fi
 
 #exec ./bin/matrix-test "$CONFIGFILE" >/dev/null
 #exec ./bin/matrix-udp-rx -m "Starting LEDscape" -c "$CONFIGFILE" >/dev/null
-exec ./bin/matrix-udp-rx -W 32 -H 32 -c "$CONFIGFILE" >/dev/null
+exec ./bin/matrix-udp-rx -W 32  -H 32 -c "$CONFIGFILE" >/dev/null
